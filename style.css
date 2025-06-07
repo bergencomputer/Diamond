@@ -1,0 +1,3 @@
+/* Extra tweaks beyond Bootstrap */
+.bg-cover{background-size:cover;background-position:center}
+body{scroll-behavior:smooth}
