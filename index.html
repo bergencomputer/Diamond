@@ -1,27 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>DHD Hardscapes</title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://htmlpreview.github.io/?https://github.com/bergencomputer/Diamond/blob/main/style.css">
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
   <div class="container">
-    <a class="navbar-brand" href="https://htmlpreview.github.io/?https://github.com/bergencomputer/Diamond/blob/main/index.html">
-      <img src="https://github.com/bergencomputer/Diamond/blob/main/logo.png?raw=true" alt="Logo" height="60" class="d-inline-block align-text-top">
-    </a>
-    <div class="collapse navbar-collapse">
+    <a class="navbar-brand" href="https://htmlpreview.github.io/?https://github.com/bergencomputer/Diamond/blob/main/index.html"><img src="https://github.com/bergencomputer/Diamond/blob/main/logo.png?raw=true" alt="Logo" height="70"></a>
+    <div class="collapse navbar-collapse" id="navMenu">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item"><a class="nav-link" href="https://htmlpreview.github.io/?https://github.com/bergencomputer/Diamond/blob/main/services.html">Services</a></li>
         <li class="nav-item"><a class="nav-link" href="https://htmlpreview.github.io/?https://github.com/bergencomputer/Diamond/blob/main/gallery.html">Gallery</a></li>
-        <li class="nav-item"><a class="nav-link" href="https://htmlpreview.github.io/?https://github.com/bergencomputer/Diamond/blob/main/about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://htmlpreview.github.io/?https://github.com/bergencomputer/Diamond/blob/main/about.html">About Us</a></li>
         <li class="nav-item"><a class="nav-link" href="https://htmlpreview.github.io/?https://github.com/bergencomputer/Diamond/blob/main/contact.html">Contact</a></li>
       </ul>
     </div>
   </div>
 </nav>
-<header class="bg-primary text-white text-center py-5">
-  <h1>Welcome to DHD Hardscapes</h1>
-  <p>Locally owned and operated in Cave Creek, AZ</p>
+
+<header class="bg-cover text-white d-flex align-items-center" style="background-image:url('https://raw.githubusercontent.com/bergencomputer/Diamond/main/images/image1.png');min-height:60vh;">
+  <div class="container text-center">
+    <h1 class="display-4 fw-bold">Built With Integrity</h1>
+    <p class="lead">Crafting patios, walls &amp; outdoor living spaces across Phoenix Metro.</p>
+    <a href="https://htmlpreview.github.io/?https://github.com/bergencomputer/Diamond/blob/main/services.html" class="btn btn-primary btn-lg mt-3">Our Services</a>
+  </div>
 </header>
-</body></html>
+
+<section class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4">About DHD Hardscapes</h2>
+    <p>DHD Hardscapes is a locally owned and operated hardscape contractor based in Cave Creek, Arizona. Licensed, bonded, and insured for both residential and commercial work, we pride ourselves on building outdoor environments that stand the test of time while elevating curb appeal and livability.</p>
+    <p>From the first consultation to the final sweep‑down, we blend craftsmanship with transparency—meaning you’ll always know what we’re doing, why we’re doing it, and how much it costs.</p>
+    <div class="row g-3 mt-4">
+      <div class="col-md-4"><img src="https://raw.githubusercontent.com/bergencomputer/Diamond/main/images/image2.png" class="img-fluid rounded" alt="Paver patio"></div>
+      <div class="col-md-4"><img src="https://raw.githubusercontent.com/bergencomputer/Diamond/main/images/image3.png" class="img-fluid rounded" alt="Outdoor kitchen"></div>
+      <div class="col-md-4"><img src="https://raw.githubusercontent.com/bergencomputer/Diamond/main/images/image4.png" class="img-fluid rounded" alt="Artificial turf"></div>
+    </div>
+  </div>
+</section>
+
+<section class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">What We Do</h2>
+    <div class="row text-center">
+      <div class="col-md-3"><h4>Paver Patios &amp; Driveways</h4></div>
+      <div class="col-md-3"><h4>Retaining &amp; Seating Walls</h4></div>
+      <div class="col-md-3"><h4>Outdoor Kitchens &amp; Fire Features</h4></div>
+      <div class="col-md-3"><h4>Artificial Turf &amp; Greens</h4></div>
+    </div>
+  </div>
+</section>
+
+<footer class="bg-dark text-white text-center py-3">
+  &copy; <span id="year"></span> DHD Hardscapes · Peoria AZ<br>
+  <a href="mailto:dhdhardscapes@gmail.com" class="text-white">dhdhardscapes@gmail.com</a> · <a href="tel:+14803528428" class="text-white">(480) 352-8428</a>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
